@@ -1,0 +1,39 @@
+site_name: My Docs
+
+theme: 
+  name: material  # 设置material for mkdocs主题
+  language: zh # 设定语言后支持搜索中文
+  logo: OTHERS/dancehole.png # logo路径，删除可以使用默认logo
+  features:
+    - navigation.instant  # 采用即使加载，优化访问性能
+    - navigation.instant.prefetch # 即时抓取，优化访问性能
+    # - navigation.tabs #启用选项卡后，顶级部分将呈现在上方视口标题下方的菜单层中，但在移动设备上保持原样
+    # - navigation.tabs.sticky #粘性导航选项卡
+    # - navigation.sections  # 启用后，顶级分区将会分组(不建议启用，会展开所有文章)
+    # - navigation.prune  # 优化性能（仅渲染每个分类的第一页，默认打开首页，需要高维护成本）
+    - toc.follow  # 锚点跟随，目录跟随页面
+    - navigation.top  # 新增导航到顶部的按钮
+    - search.suggest  # 搜索建议(仅支持英文)
+    - search.highlight  # 搜索内容高亮显示（仅支持英文）
+    - navigation.footer # 页脚 指向下一篇文章
+  custom_dir: overrides # 扩展主题，支持评论技术栈
+
+extra:  # 底部图标 版权跳转
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/dancehole
+    - icon: fontawesome/solid/paper-plane
+      link: mailto:<1391755954@qq.com>
+
+# 版权声明 
+copyright: Copyright © dancehole邓仕昊 2023 - 2024 深圳技术大学
+
+# 存储库
+repo_url: https://gitee.com/dancehole/code-labs
+repo_name: dancehole/CodeLabs
+
+# 显示文件时间 需要安装库 pip install mkdocs-git-revision-date-localized-plugin
+plugins:  # 插件
+  - git-revision-date-localized:
+      enable_creation_date: true
+      type: date # 支持 date datetime iso_date iso_datetime timeago
