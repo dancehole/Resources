@@ -1,11 +1,6 @@
 # 如何快速选择开源许可证License，看这三个就够了_copyright-CSDN博客
-最新推荐文章于 2023-10-31 10:53:04 发布
 
-![](关于git选license.assets/original.png)
 
-[技术地图](https://blog.csdn.net/CatherineJChen "技术地图") ![](关于git选license.assets/newCurrentTime2.png) 最新推荐文章于 2023-10-31 10:53:04 发布
-
-版权声明：本文为博主原创文章，遵循 [CC 4.0 BY-SA](http://creativecommons.org/licenses/by-sa/4.0/) 版权协议，转载请附上原文出处链接和本声明。
 
 开源License很多，如果你不想在License耗费太多精力，那么推荐你重点了解这三种：GPL、Apache License及MIT。这三种在开源License中很具代表性，使用广泛，且简洁易理解。同时，这三种license是经过OSI（Open Source Initiative）、FSF（Free Software Fundation)核准验证可用于提供给开源者颁发授权的许可证。
 

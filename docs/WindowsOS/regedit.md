@@ -100,11 +100,11 @@
 2. 定位到`“HKEY_CURRENT_USER\SOFTWARE\CLASSES\CLSID”`
 
 3. 右键点击“CLSID”键值，新建一个名为`{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}`的项
-   <img src="regedit.assets/image-20240125175629088.png" alt="image-20240125175629088" style="zoom: 67%;" />
+   <img src="https://cdn.jsdelivr.net/gh/dancehole/image@main/codelabs/image-20240125175629088.png" alt="image-20240125175629088" style="zoom: 67%;" />
 
 4. 右键点击新创建的项，新建一个名为`InprocServer32`的项，按下回车键保存
 
-   ![image-20240125175820852](regedit.assets/image-20240125175820852.png)
+   ![image-20240125175820852](https://cdn.jsdelivr.net/gh/dancehole/image@main/codelabs/image-20240125175820852.png)
 
 5. 重启或**重启**windows Explorer.exe进程（在任务管理器中，连同文件资源管理器、任务栏和开始菜单，请不要直接杀进程-会导致死机）
 
@@ -116,7 +116,7 @@
 
 原来右键->现在右键
 
-<img src="regedit.assets/image-20240128121132705.png" alt="image-20240128121132705" style="zoom: 67%;" />
+<img src="https://cdn.jsdelivr.net/gh/dancehole/image@main/codelabs/image-20240128121132705.png" alt="image-20240128121132705" style="zoom: 67%;" />
 
 
 
@@ -142,7 +142,7 @@
 
 <img src="regedit.assets/image-20240125194532195.png" alt="image-20240125194532195" style="zoom: 80%;" />
 
-<img src="regedit.assets/image-20240125194552011.png" alt="image-20240125194552011" style="zoom: 33%;" />
+<img src="https://cdn.jsdelivr.net/gh/dancehole/image@main/codelabs/image-20240125194552011.png" alt="image-20240125194552011" style="zoom: 33%;" />
 
 **同样是win10风格的文件资源管理器**
 
@@ -153,7 +153,7 @@
 1. 输入`reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Shell Extensions\Blocked" /v "{e2bf9676-5f8f-435c-97eb-11607a5bedf7}" /t REG_SZ /d "" /f`
 2. 输入`reg add "HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Shell Extensions\Blocked" /v "{e2bf9676-5f8f-435c-97eb-11607a5bedf7}" /t REG_SZ /d "" /f`
 
-![image-20240125191152811](regedit.assets/image-20240125191152811.png)
+![image-20240125191152811](https://cdn.jsdelivr.net/gh/dancehole/image@main/codelabs/image-20240125191152811.png)
 
 4. 恢复win11操作（删除注册表）：`reg delete "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Shell Extensions\Blocked" /f`
 
@@ -170,9 +170,9 @@
 4. 新建字符串/S，命名为`{e2bf9676-5f8f-435c-97eb-11607a5bedf7}`。不用设置数据值。
 5. 重启电脑/文件资源管理器(windows explorer)
 
-![image-20240125191524994](regedit.assets/image-20240125191524994.png)
+![image-20240125191524994](https://cdn.jsdelivr.net/gh/dancehole/image@main/codelabs/image-20240125191524994.png)
 
-![image-20240125191350724](regedit.assets/image-20240125191350724.png)
+![image-20240125191350724](https://cdn.jsdelivr.net/gh/dancehole/image@main/codelabs/image-20240125191350724.png)
 
 
 
@@ -180,11 +180,11 @@
 
 原来：
 
-![image-20240125174817797](regedit.assets/image-20240125174817797.png)
+![image-20240125174817797](https://cdn.jsdelivr.net/gh/dancehole/image@main/codelabs/image-20240125174817797.png)
 
 现在：
 
-![image-20240125194035153](regedit.assets/image-20240125194035153.png)
+![image-20240125194035153](https://cdn.jsdelivr.net/gh/dancehole/image@main/codelabs/image-20240125194035153.png)
 
 **一个字，简洁！**
 
@@ -209,7 +209,7 @@
 计算机\HKEY_CLASSES_ROOT\lnkfile\shellex\ContextMenuHandlers\QQShellExt
 ```
 
-![image-20240127193118271](regedit.assets/image-20240127193118271.png)
+![image-20240127193118271](https://cdn.jsdelivr.net/gh/dancehole/image@main/codelabs/image-20240127193118271.png)
 
 如图所示定位到注册表三个项
 
@@ -251,13 +251,13 @@ Windows Registry Editor Version 5.00
 
 
 
-<img src="regedit.assets/image-20240126175535187.png" alt="image-20240126175535187" style="zoom:50%;" />
+<img src="https://cdn.jsdelivr.net/gh/dancehole/image@main/codelabs/image-20240126175535187.png" alt="image-20240126175535187" style="zoom:50%;" />
 
 
 
 我们可以指定新建一个模板文件（暂时支持纯文本文件，office模板需要额外设置）
 
-![image-20240206180655465](regedit.assets/image-20240206180655465.png)
+![image-20240206180655465](https://cdn.jsdelivr.net/gh/dancehole/image@main/codelabs/image-20240206180655465.png)
 
 **把ShellNew里的NullFile重命名为FileName，值为模板内容（可以使用模板文件路径）**
 
@@ -277,7 +277,7 @@ Windows Registry Editor Version 5.00
 
 我们新建一个项“dancehole”，可以看到右键就多了一个
 
-![image-20240128122005446](regedit.assets/image-20240128122005446.png)
+![image-20240128122005446](https://cdn.jsdelivr.net/gh/dancehole/image@main/codelabs/image-20240128122005446.png)
 
 
 
@@ -316,7 +316,7 @@ Windows Registry Editor Version 5.00
 
 默认属性里添加`D:\Tools\Typora\typora.exe" "%1`（改为自己的typora路径）
 
-<img src="regedit.assets/image-20240128121721624.png" alt="image-20240128121721624" style="zoom:50%;" />
+<img src="https://cdn.jsdelivr.net/gh/dancehole/image@main/codelabs/image-20240128121721624.png" alt="image-20240128121721624" style="zoom:50%;" />
 
 
 
@@ -406,7 +406,7 @@ Windows Registry Editor Version 5.00
 
 - [仓库地址：BluePointLilac/ContextMenuManager · GitHub](https://github.com/BluePointLilac/ContextMenuManager)
 
-<img src="regedit.assets/image-20240128111233808.png" alt="image-20240128111233808" style="zoom:50%;" />
+<img src="https://cdn.jsdelivr.net/gh/dancehole/image@main/codelabs/image-20240128111233808.png" alt="image-20240128111233808" style="zoom:50%;" />
 
 
 

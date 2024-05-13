@@ -1,9 +1,5 @@
 # GIT版本管理看这一篇就够了 - 简书
 
-<img src="一文git教学.assets/8141172-5311c422d4f14406-17090898564462.jpg" style="zoom:33%;" />
-
-timg.jpg
-
 本文地址：[https://www.jianshu.com/p/0e9d07ec76f9](https://www.jianshu.com/p/0e9d07ec76f9)
 
 
@@ -585,3 +581,9 @@ __pycache__
 ```
 
 如果需要按照具体的项目来配置特定的忽略文件的话，那么可以配置一个`.gitignore`文件直接放到仓库的根目录即可。
+
+
+
+# 常用：本地和远程commit冲突时解决方案
+
+1. `git pull --rebase origin master`将远程的commit拉到本地作为老的commit，本地作为新的。

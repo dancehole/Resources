@@ -40,13 +40,28 @@ comments: true  #默认不开启评论，此处开启
 
 CodeLabs包含常用非专业知识，包含Git、Markdown协作、window技巧和杂项类目等。[点击这里查看文章目录](#Catalogue)
 
+
+
+| <a><img src="https://cdn.jsdelivr.net/gh/dancehole/image@main/img/Web_blogs.png"/></a> | <a href="https://dancehole.gitee.io/"><img src="https://cdn.jsdelivr.net/gh/dancehole/image@main/img/Web_games.png"/></a> | <a href="https://dancehole.gitee.io/todolist"><img src="https://cdn.jsdelivr.net/gh/dancehole/image@main/img/Web_Todo.png"/></a> |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| <a href="https://dancehole.gitee.io/code-labs"><img src="https://cdn.jsdelivr.net/gh/dancehole/image@main/img/Web_CodeLabs.png"/></a> | <a href=" https://dancehole.gitee.io/vue-chess"><img src="https://cdn.jsdelivr.net/gh/dancehole/image@main/img/Web_Chess.png"/></a> | <img src="https://cdn.jsdelivr.net/gh/dancehole/image@main/img/Web_notebooks.png"/> |
+| <a href="https://dancehole.gitee.io/web-d/"><img src="https://cdn.jsdelivr.net/gh/dancehole/image@main/img/th%20(2).jpg"/></a> |                                                              |                                                              |
+
+
+
 ------
 
 **仓库动态**
 
 <p align="center" style="font-size:45px;" id="pyq">-请在html中渲染-</p>
 
+**TodoList:**
 
+- yml文件配置
+  - 代码块高亮和md支持
+  - 公式的不支持
+  - 文件链接的不支持
+- CI/CLI（转移至GitHub上）
 
 <script>
      // 等待文档加载完毕后执行，不然会报错 找不到id的元素
@@ -65,12 +80,6 @@ CodeLabs包含常用非专业知识，包含Git、Markdown协作、window技巧�
             }
         });
 </script>
-
-
-
-
-最后更新：2024/02/29 部署gitee page并重写readme。
-
 ---------
 
 **CodeLabs页面已经发布，你可以：**

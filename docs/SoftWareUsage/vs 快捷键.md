@@ -32,3 +32,12 @@ Ctrl + Shift + S = 保存所有文件和项目
 Shift + End = 从头到尾选择整行
 Shift + Home = 从尾到头选择整行
 Ctrl + Delete = 删除光标右侧的所有字
+
+
+
+
+
+# VSCODE
+
+alt+shift+F 快速格式化代码
+

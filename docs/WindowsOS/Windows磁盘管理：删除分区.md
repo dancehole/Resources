@@ -6,9 +6,9 @@
 我们准备一个安装了系统的磁盘（固态or机械），里面有不可删除的分区（恢复分区，等），我们需要通过此方法删除
 
 目的：把这些分区删除，然后归为己有
-![1](Windows磁盘管理：删除分区.assets/1.jpg)
+![1](https://cdn.jsdelivr.net/gh/dancehole/image@main/codelabs/1.jpg)
 
-![2](Windows磁盘管理：删除分区.assets/2.jpg)
+![2](https://cdn.jsdelivr.net/gh/dancehole/image@main/codelabs/2.jpg)
 
 
 1. 输入`list disk`并按Enter键。 出现物理驱动器列表。如果你在笔记本电脑上这样做，你可能只有一个驱动器。
@@ -154,6 +154,6 @@ DISKPART>
 ```
 
 我们打开计算机管理，可以看到分区被释放，变成【未分配】分区，然后就可以愉快的扩展/分配驱动器 
-![3](Windows磁盘管理：删除分区.assets/3.png)
+![3](https://cdn.jsdelivr.net/gh/dancehole/image@main/codelabs/3.png)
 
 后续补充：我们还可以使用disk genius 简单的管理分区，实现上述功能
