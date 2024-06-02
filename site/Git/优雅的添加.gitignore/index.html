@@ -20,11 +20,14 @@
     
     
       
-        <title>VS Gitignore 示例： - My Docs</title>
+        <title>VS Gitignore 示例： - CodeLabs(博客临时站点)</title>
       
     
     
       <link rel="stylesheet" href="../../assets/stylesheets/main.7e359304.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
       
       
 
@@ -53,7 +56,14 @@
   </head>
   
   
-    <body dir="ltr">
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
   
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
@@ -78,7 +88,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="页眉">
-    <a href="../.." title="My Docs" class="md-header__button md-logo" aria-label="My Docs" data-md-component="logo">
+    <a href="../.." title="CodeLabs(博客临时站点)" class="md-header__button md-logo" aria-label="CodeLabs(博客临时站点)" data-md-component="logo">
       
   <img src="../../OTHERS/dancehole.png" alt="logo">
 
@@ -91,7 +101,7 @@
       <div class="md-header__ellipsis">
         <div class="md-header__topic">
           <span class="md-ellipsis">
-            My Docs
+            CodeLabs(博客临时站点)
           </span>
         </div>
         <div class="md-header__topic" data-md-component="header-topic">
@@ -103,6 +113,32 @@
         </div>
       </div>
     </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="切换至夜间模式"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="切换至夜间模式" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3 3.19.09m3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95 2.06.05m-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31Z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="cyan"  aria-label="切换至日间模式"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="切换至日间模式" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5c-.84 0-1.65.15-2.39.42L12 2M3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29L3.34 7m.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14L3.36 17M20.65 7l-1.77 3.79a7.023 7.023 0 0 0-2.38-4.15l4.15.36m-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29L20.64 17M12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44L12 22Z"/></svg>
+      </label>
+    
+  
+</form>
+      
     
     
       <script>var media,input,key,value,palette=__md_get("__palette");if(palette&&palette.color){"(prefers-color-scheme)"===palette.color.media&&(media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']"),palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent"));for([key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
@@ -147,12 +183,12 @@
 
 <nav class="md-nav md-nav--primary" aria-label="导航栏" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../.." title="My Docs" class="md-nav__button md-logo" aria-label="My Docs" data-md-component="logo">
+    <a href="../.." title="CodeLabs(博客临时站点)" class="md-nav__button md-logo" aria-label="CodeLabs(博客临时站点)" data-md-component="logo">
       
   <img src="../../OTHERS/dancehole.png" alt="logo">
 
     </a>
-    My Docs
+    CodeLabs(博客临时站点)
   </label>
   
     <div class="md-nav__source">
@@ -540,7 +576,7 @@
         
   
   <span class="md-ellipsis">
-    基于Mkdocs+mkdocs-material
+    基于Mkdocs+mkdocs-material+gitcus+gitee/github page+..的个人博客页
   </span>
   
 
@@ -824,344 +860,6 @@
 
               
             
-              
-                
-  
-  
-  
-  
-    
-    
-    
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-        
-        
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_2" >
-        
-          
-          <label class="md-nav__link" for="__nav_6_2" id="__nav_6_2_label" tabindex="0">
-            
-  
-  <span class="md-ellipsis">
-    37,45种常见传感器全讲解(unpublished)
-  </span>
-  
-
-            <span class="md-nav__icon md-icon"></span>
-          </label>
-        
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_2_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_6_2">
-            <span class="md-nav__icon md-icon"></span>
-            37,45种常见传感器全讲解(unpublished)
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../PublishedArticle/37%2C45%E7%A7%8D%E5%B8%B8%E8%A7%81%E4%BC%A0%E6%84%9F%E5%99%A8%E5%85%A8%E8%AE%B2%E8%A7%A3%28unpublished%29/3%E8%89%B2RGB/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    跑马灯
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../PublishedArticle/37%2C45%E7%A7%8D%E5%B8%B8%E8%A7%81%E4%BC%A0%E6%84%9F%E5%99%A8%E5%85%A8%E8%AE%B2%E8%A7%A3%28unpublished%29/DS18b20%E6%B8%A9%E6%B9%BF%E5%BA%A6/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    快速上手
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../PublishedArticle/37%2C45%E7%A7%8D%E5%B8%B8%E8%A7%81%E4%BC%A0%E6%84%9F%E5%99%A8%E5%85%A8%E8%AE%B2%E8%A7%A3%28unpublished%29/%E4%B8%B2%E5%8F%A3%E7%9B%B8%E5%85%B3/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    串口相关
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../PublishedArticle/37%2C45%E7%A7%8D%E5%B8%B8%E8%A7%81%E4%BC%A0%E6%84%9F%E5%99%A8%E5%85%A8%E8%AE%B2%E8%A7%A3%28unpublished%29/%E5%BE%AA%E8%BF%B9%E6%A8%A1%E5%9D%97/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    循迹模块
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../PublishedArticle/37%2C45%E7%A7%8D%E5%B8%B8%E8%A7%81%E4%BC%A0%E6%84%9F%E5%99%A8%E5%85%A8%E8%AE%B2%E8%A7%A3%28unpublished%29/%E6%8C%89%E9%94%AE%E5%BC%80%E5%85%B3/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    按键开关
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../PublishedArticle/37%2C45%E7%A7%8D%E5%B8%B8%E8%A7%81%E4%BC%A0%E6%84%9F%E5%99%A8%E5%85%A8%E8%AE%B2%E8%A7%A3%28unpublished%29/%E6%95%B0%E5%AD%97%E6%B8%A9%E5%BA%A6%EF%BC%88%E6%B2%A1%E7%8E%A9%E6%98%8E%E7%99%BD%EF%BC%89/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    数字温度（没玩明白）
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../PublishedArticle/37%2C45%E7%A7%8D%E5%B8%B8%E8%A7%81%E4%BC%A0%E6%84%9F%E5%99%A8%E5%85%A8%E8%AE%B2%E8%A7%A3%28unpublished%29/%E6%95%B2%E5%87%BB%E6%A8%A1%E5%9D%97/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    敲击模块
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../PublishedArticle/37%2C45%E7%A7%8D%E5%B8%B8%E8%A7%81%E4%BC%A0%E6%84%9F%E5%99%A8%E5%85%A8%E8%AE%B2%E8%A7%A3%28unpublished%29/%E6%B8%B8%E6%88%8F%E6%91%87%E6%9D%86%E6%A8%A1%E5%9D%97/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    游戏摇杆模块
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../PublishedArticle/37%2C45%E7%A7%8D%E5%B8%B8%E8%A7%81%E4%BC%A0%E6%84%9F%E5%99%A8%E5%85%A8%E8%AE%B2%E8%A7%A3%28unpublished%29/%E6%BF%80%E5%85%89%E5%8F%91%E5%B0%84%E5%99%A8/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    激光发射器
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../PublishedArticle/37%2C45%E7%A7%8D%E5%B8%B8%E8%A7%81%E4%BC%A0%E6%84%9F%E5%99%A8%E5%85%A8%E8%AE%B2%E8%A7%A3%28unpublished%29/%E8%A7%A6%E6%91%B8%E4%BC%A0%E6%84%9F%E5%99%A8/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    触摸传感器
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    
-    
-    
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-        
-        
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_2_11" >
-        
-          
-          <label class="md-nav__link" for="__nav_6_2_11" id="__nav_6_2_11_label" tabindex="0">
-            
-  
-  <span class="md-ellipsis">
-    合集
-  </span>
-  
-
-            <span class="md-nav__icon md-icon"></span>
-          </label>
-        
-        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_6_2_11_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_6_2_11">
-            <span class="md-nav__icon md-icon"></span>
-            合集
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../PublishedArticle/37%2C45%E7%A7%8D%E5%B8%B8%E8%A7%81%E4%BC%A0%E6%84%9F%E5%99%A8%E5%85%A8%E8%AE%B2%E8%A7%A3%28unpublished%29/%E5%90%88%E9%9B%86/%E4%BF%A1%E5%8F%B7%E7%81%AF%E6%8E%A7%E5%88%B6%E7%B1%BB/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    合集内容:信号灯控制类
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../PublishedArticle/37%2C45%E7%A7%8D%E5%B8%B8%E8%A7%81%E4%BC%A0%E6%84%9F%E5%99%A8%E5%85%A8%E8%AE%B2%E8%A7%A3%28unpublished%29/%E5%90%88%E9%9B%86/%E8%9C%82%E9%B8%A3%E5%99%A8%E7%B1%BB/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    蜂鸣器类
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-          </ul>
-        </nav>
-      
-    </li>
-  
-
-              
-            
-          </ul>
-        </nav>
-      
-    </li>
-  
-
-              
-            
           </ul>
         </nav>
       
@@ -1237,6 +935,27 @@
   
   <span class="md-ellipsis">
     FreeFileSync文件同步与备份工具
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../SoftWareUsage/vs%20%E5%BF%AB%E6%8D%B7%E9%94%AE/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Vs 快捷键
   </span>
   
 
@@ -1842,6 +1561,27 @@
   
   
     <li class="md-nav__item">
+      <a href="../../%E5%B8%B8%E7%94%A8%E5%A4%96%E8%AE%BE%E3%80%81%E4%BC%A0%E6%84%9F%E5%99%A8/%E4%BF%A1%E5%8F%B7%E7%81%AF%E6%8E%A7%E5%88%B6%E7%B1%BB/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    合集内容:信号灯控制类
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../../%E5%B8%B8%E7%94%A8%E5%A4%96%E8%AE%BE%E3%80%81%E4%BC%A0%E6%84%9F%E5%99%A8/%E5%A4%A7%E5%B0%8F%E7%A3%81%E7%B0%A7_%E7%A3%81%E5%9C%BA%E4%BC%A0%E6%84%9F%E5%99%A8/" class="md-nav__link">
         
   
@@ -1989,84 +1729,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../%E5%B8%B8%E7%94%A8%E5%A4%96%E8%AE%BE%E3%80%81%E4%BC%A0%E6%84%9F%E5%99%A8/%E8%A7%A6%E6%91%B8%E4%BC%A0%E6%84%9F%E5%99%A8/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    触摸传感器
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    
-    
-    
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-        
-        
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_11_12" >
-        
-          
-          <label class="md-nav__link" for="__nav_11_12" id="__nav_11_12_label" tabindex="0">
-            
-  
-  <span class="md-ellipsis">
-    合集
-  </span>
-  
-
-            <span class="md-nav__icon md-icon"></span>
-          </label>
-        
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_11_12_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_11_12">
-            <span class="md-nav__icon md-icon"></span>
-            合集
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../%E5%B8%B8%E7%94%A8%E5%A4%96%E8%AE%BE%E3%80%81%E4%BC%A0%E6%84%9F%E5%99%A8/%E5%90%88%E9%9B%86/%E4%BF%A1%E5%8F%B7%E7%81%AF%E6%8E%A7%E5%88%B6%E7%B1%BB/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    合集内容:信号灯控制类
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../%E5%B8%B8%E7%94%A8%E5%A4%96%E8%AE%BE%E3%80%81%E4%BC%A0%E6%84%9F%E5%99%A8/%E5%90%88%E9%9B%86/%E8%9C%82%E9%B8%A3%E5%99%A8%E7%B1%BB/" class="md-nav__link">
+      <a href="../../%E5%B8%B8%E7%94%A8%E5%A4%96%E8%AE%BE%E3%80%81%E4%BC%A0%E6%84%9F%E5%99%A8/%E8%9C%82%E9%B8%A3%E5%99%A8%E7%B1%BB/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2080,9 +1743,22 @@
 
               
             
-          </ul>
-        </nav>
-      
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../%E5%B8%B8%E7%94%A8%E5%A4%96%E8%AE%BE%E3%80%81%E4%BC%A0%E6%84%9F%E5%99%A8/%E8%A7%A6%E6%91%B8%E4%BC%A0%E6%84%9F%E5%99%A8/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    触摸传感器
+  </span>
+  
+
+      </a>
     </li>
   
 
@@ -2212,78 +1888,78 @@
                   
 
 
-<h1 id="vs-gitignore">VS Gitignore 示例：</h1>
-<pre><code class="language-bash">## Ignore Visual Studio temporary files, build results, and
-## files generated by popular Visual Studio add-ons.
-##
-## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
+<h1 id="vs-gitignore">VS Gitignore 示例：<a class="headerlink" href="#vs-gitignore" title="Permanent link">&para;</a></h1>
+<div class="highlight"><pre><span></span><code><span class="c1">## Ignore Visual Studio temporary files, build results, and</span>
+<span class="c1">## files generated by popular Visual Studio add-ons.</span>
+<span class="c1">##</span>
+<span class="c1">## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore</span>
 
-# User-specific files
+<span class="c1"># User-specific files</span>
 *.rsuser
 *.suo
 *.user
 *.userosscache
 *.sln.docstates
 
-# User-specific files (MonoDevelop/Xamarin Studio)
+<span class="c1"># User-specific files (MonoDevelop/Xamarin Studio)</span>
 *.userprefs
 
-# Mono auto generated files
+<span class="c1"># Mono auto generated files</span>
 mono_crash.*
 
-# Build results
-[Dd]ebug/
-[Dd]ebugPublic/
-[Rr]elease/
-[Rr]eleases/
+<span class="c1"># Build results</span>
+<span class="o">[</span>Dd<span class="o">]</span>ebug/
+<span class="o">[</span>Dd<span class="o">]</span>ebugPublic/
+<span class="o">[</span>Rr<span class="o">]</span>elease/
+<span class="o">[</span>Rr<span class="o">]</span>eleases/
 x64/
 x86/
-[Ww][Ii][Nn]32/
-[Aa][Rr][Mm]/
-[Aa][Rr][Mm]64/
+<span class="o">[</span>Ww<span class="o">][</span>Ii<span class="o">][</span>Nn<span class="o">]</span><span class="m">32</span>/
+<span class="o">[</span>Aa<span class="o">][</span>Rr<span class="o">][</span>Mm<span class="o">]</span>/
+<span class="o">[</span>Aa<span class="o">][</span>Rr<span class="o">][</span>Mm<span class="o">]</span><span class="m">64</span>/
 bld/
-[Bb]in/
-[Oo]bj/
-[Ll]og/
-[Ll]ogs/
+<span class="o">[</span>Bb<span class="o">]</span><span class="k">in</span>/
+<span class="o">[</span>Oo<span class="o">]</span>bj/
+<span class="o">[</span>Ll<span class="o">]</span>og/
+<span class="o">[</span>Ll<span class="o">]</span>ogs/
 
-# Visual Studio 2015/2017 cache/options directory
+<span class="c1"># Visual Studio 2015/2017 cache/options directory</span>
 .vs/
-# Uncomment if you have tasks that create the project's static files in wwwroot
-#wwwroot/
+<span class="c1"># Uncomment if you have tasks that create the project&#39;s static files in wwwroot</span>
+<span class="c1">#wwwroot/</span>
 
-# Visual Studio 2017 auto generated files
-Generated\ Files/
+<span class="c1"># Visual Studio 2017 auto generated files</span>
+Generated<span class="se">\ </span>Files/
 
-# MSTest test Results
-[Tt]est[Rr]esult*/
-[Bb]uild[Ll]og.*
+<span class="c1"># MSTest test Results</span>
+<span class="o">[</span>Tt<span class="o">]</span>est<span class="o">[</span>Rr<span class="o">]</span>esult*/
+<span class="o">[</span>Bb<span class="o">]</span>uild<span class="o">[</span>Ll<span class="o">]</span>og.*
 
-# NUnit
+<span class="c1"># NUnit</span>
 *.VisualState.xml
 TestResult.xml
 nunit-*.xml
 
-# Build Results of an ATL Project
-[Dd]ebugPS/
-[Rr]eleasePS/
+<span class="c1"># Build Results of an ATL Project</span>
+<span class="o">[</span>Dd<span class="o">]</span>ebugPS/
+<span class="o">[</span>Rr<span class="o">]</span>eleasePS/
 dlldata.c
 
-# Benchmark Results
+<span class="c1"># Benchmark Results</span>
 BenchmarkDotNet.Artifacts/
 
-# .NET Core
+<span class="c1"># .NET Core</span>
 project.lock.json
 project.fragment.lock.json
 artifacts/
 
-# ASP.NET Scaffolding
+<span class="c1"># ASP.NET Scaffolding</span>
 ScaffoldingReadMe.txt
 
-# StyleCop
+<span class="c1"># StyleCop</span>
 StyleCopReport.xml
 
-# Files built by Visual Studio
+<span class="c1"># Files built by Visual Studio</span>
 *_i.c
 *_p.c
 *_h.h
@@ -2313,10 +1989,10 @@ StyleCopReport.xml
 *.svclog
 *.scc
 
-# Chutzpah Test files
+<span class="c1"># Chutzpah Test files</span>
 _Chutzpah*
 
-# Visual C++ cache files
+<span class="c1"># Visual C++ cache files</span>
 ipch/
 *.aps
 *.ncb
@@ -2327,61 +2003,61 @@ ipch/
 *.VC.db
 *.VC.VC.opendb
 
-# Visual Studio profiler
+<span class="c1"># Visual Studio profiler</span>
 *.psess
 *.vsp
 *.vspx
 *.sap
 
-# Visual Studio Trace Files
+<span class="c1"># Visual Studio Trace Files</span>
 *.e2e
 
-# TFS 2012 Local Workspace
-$tf/
+<span class="c1"># TFS 2012 Local Workspace</span>
+<span class="nv">$tf</span>/
 
-# Guidance Automation Toolkit
+<span class="c1"># Guidance Automation Toolkit</span>
 *.gpState
 
-# ReSharper is a .NET coding add-in
+<span class="c1"># ReSharper is a .NET coding add-in</span>
 _ReSharper*/
-*.[Rr]e[Ss]harper
+*.<span class="o">[</span>Rr<span class="o">]</span>e<span class="o">[</span>Ss<span class="o">]</span>harper
 *.DotSettings.user
 
-# TeamCity is a build add-in
+<span class="c1"># TeamCity is a build add-in</span>
 _TeamCity*
 
-# DotCover is a Code Coverage Tool
+<span class="c1"># DotCover is a Code Coverage Tool</span>
 *.dotCover
 
-# AxoCover is a Code Coverage Tool
+<span class="c1"># AxoCover is a Code Coverage Tool</span>
 .axoCover/*
 !.axoCover/settings.json
 
-# Coverlet is a free, cross platform Code Coverage Tool
+<span class="c1"># Coverlet is a free, cross platform Code Coverage Tool</span>
 coverage*.json
 coverage*.xml
 coverage*.info
 
-# Visual Studio code coverage results
+<span class="c1"># Visual Studio code coverage results</span>
 *.coverage
 *.coveragexml
 
-# NCrunch
+<span class="c1"># NCrunch</span>
 _NCrunch_*
 .*crunch*.local.xml
 nCrunchTemp_*
 
-# MightyMoose
+<span class="c1"># MightyMoose</span>
 *.mm.*
 AutoTest.Net/
 
-# Web workbench (sass)
+<span class="c1"># Web workbench (sass)</span>
 .sass-cache/
 
-# Installshield output folder
-[Ee]xpress/
+<span class="c1"># Installshield output folder</span>
+<span class="o">[</span>Ee<span class="o">]</span>xpress/
 
-# DocProject is a documentation generator add-in
+<span class="c1"># DocProject is a documentation generator add-in</span>
 DocProject/buildhelp/
 DocProject/Help/*.HxT
 DocProject/Help/*.HxC
@@ -2391,48 +2067,48 @@ DocProject/Help/*.hhp
 DocProject/Help/Html2
 DocProject/Help/html
 
-# Click-Once directory
+<span class="c1"># Click-Once directory</span>
 publish/
 
-# Publish Web Output
-*.[Pp]ublish.xml
+<span class="c1"># Publish Web Output</span>
+*.<span class="o">[</span>Pp<span class="o">]</span>ublish.xml
 *.azurePubxml
-# Note: Comment the next line if you want to checkin your web deploy settings,
-# but database connection strings (with potential passwords) will be unencrypted
+<span class="c1"># Note: Comment the next line if you want to checkin your web deploy settings,</span>
+<span class="c1"># but database connection strings (with potential passwords) will be unencrypted</span>
 *.pubxml
 *.publishproj
 
-# Microsoft Azure Web App publish settings. Comment the next line if you want to
-# checkin your Azure Web App publish settings, but sensitive information contained
-# in these scripts will be unencrypted
+<span class="c1"># Microsoft Azure Web App publish settings. Comment the next line if you want to</span>
+<span class="c1"># checkin your Azure Web App publish settings, but sensitive information contained</span>
+<span class="c1"># in these scripts will be unencrypted</span>
 PublishScripts/
 
-# NuGet Packages
+<span class="c1"># NuGet Packages</span>
 *.nupkg
-# NuGet Symbol Packages
+<span class="c1"># NuGet Symbol Packages</span>
 *.snupkg
-# The packages folder can be ignored because of Package Restore
-**/[Pp]ackages/*
-# except build/, which is used as an MSBuild target.
-!**/[Pp]ackages/build/
-# Uncomment if necessary however generally it will be regenerated when needed
-#!**/[Pp]ackages/repositories.config
-# NuGet v3's project.json files produces more ignorable files
+<span class="c1"># The packages folder can be ignored because of Package Restore</span>
+**/<span class="o">[</span>Pp<span class="o">]</span>ackages/*
+<span class="c1"># except build/, which is used as an MSBuild target.</span>
+!**/<span class="o">[</span>Pp<span class="o">]</span>ackages/build/
+<span class="c1"># Uncomment if necessary however generally it will be regenerated when needed</span>
+<span class="c1">#!**/[Pp]ackages/repositories.config</span>
+<span class="c1"># NuGet v3&#39;s project.json files produces more ignorable files</span>
 *.nuget.props
 *.nuget.targets
 
-# Nuget personal access tokens and Credentials
+<span class="c1"># Nuget personal access tokens and Credentials</span>
 nuget.config
 
-# Microsoft Azure Build Output
+<span class="c1"># Microsoft Azure Build Output</span>
 csx/
 *.build.csdef
 
-# Microsoft Azure Emulator
+<span class="c1"># Microsoft Azure Emulator</span>
 ecf/
 rcf/
 
-# Windows Store app package directories and files
+<span class="c1"># Windows Store app package directories and files</span>
 AppPackages/
 BundleArtifacts/
 Package.StoreAssociation.xml
@@ -2441,15 +2117,15 @@ _pkginfo.txt
 *.appxbundle
 *.appxupload
 
-# Visual Studio cache files
-# files ending in .cache can be ignored
-*.[Cc]ache
-# but keep track of directories ending in .cache
-!?*.[Cc]ache/
+<span class="c1"># Visual Studio cache files</span>
+<span class="c1"># files ending in .cache can be ignored</span>
+*.<span class="o">[</span>Cc<span class="o">]</span>ache
+<span class="c1"># but keep track of directories ending in .cache</span>
+!?*.<span class="o">[</span>Cc<span class="o">]</span>ache/
 
-# Others
+<span class="c1"># Others</span>
 ClientBin/
-~$*
+~<span class="nv">$*</span>
 *~
 *.dbmdl
 *.dbproj.schemaview
@@ -2458,20 +2134,20 @@ ClientBin/
 *.publishsettings
 orleans.codegen.cs
 
-# Including strong name files can present a security risk
-# (https://github.com/github/gitignore/pull/2483#issue-259490424)
-#*.snk
+<span class="c1"># Including strong name files can present a security risk</span>
+<span class="c1"># (https://github.com/github/gitignore/pull/2483#issue-259490424)</span>
+<span class="c1">#*.snk</span>
 
-# Since there are multiple workflows, uncomment next line to ignore bower_components
-# (https://github.com/github/gitignore/pull/1529#issuecomment-104372622)
-#bower_components/
+<span class="c1"># Since there are multiple workflows, uncomment next line to ignore bower_components</span>
+<span class="c1"># (https://github.com/github/gitignore/pull/1529#issuecomment-104372622)</span>
+<span class="c1">#bower_components/</span>
 
-# RIA/Silverlight projects
+<span class="c1"># RIA/Silverlight projects</span>
 Generated_Code/
 
-# Backup &amp; report files from converting an old project file
-# to a newer Visual Studio version. Backup files are not needed,
-# because we have git ;-)
+<span class="c1"># Backup &amp; report files from converting an old project file</span>
+<span class="c1"># to a newer Visual Studio version. Backup files are not needed,</span>
+<span class="c1"># because we have git ;-)</span>
 _UpgradeReport_Files/
 Backup*/
 UpgradeLog*.XML
@@ -2479,40 +2155,40 @@ UpgradeLog*.htm
 ServiceFabricBackup/
 *.rptproj.bak
 
-# SQL Server files
+<span class="c1"># SQL Server files</span>
 *.mdf
 *.ldf
 *.ndf
 
-# Business Intelligence projects
+<span class="c1"># Business Intelligence projects</span>
 *.rdl.data
 *.bim.layout
 *.bim_*.settings
 *.rptproj.rsuser
-*- [Bb]ackup.rdl
-*- [Bb]ackup ([0-9]).rdl
-*- [Bb]ackup ([0-9][0-9]).rdl
+*-<span class="w"> </span><span class="o">[</span>Bb<span class="o">]</span>ackup.rdl
+*-<span class="w"> </span><span class="o">[</span>Bb<span class="o">]</span>ackup<span class="w"> </span><span class="o">([</span><span class="m">0</span>-9<span class="o">])</span>.rdl
+*-<span class="w"> </span><span class="o">[</span>Bb<span class="o">]</span>ackup<span class="w"> </span><span class="o">([</span><span class="m">0</span>-9<span class="o">][</span><span class="m">0</span>-9<span class="o">])</span>.rdl
 
-# Microsoft Fakes
+<span class="c1"># Microsoft Fakes</span>
 FakesAssemblies/
 
-# GhostDoc plugin setting file
+<span class="c1"># GhostDoc plugin setting file</span>
 *.GhostDoc.xml
 
-# Node.js Tools for Visual Studio
+<span class="c1"># Node.js Tools for Visual Studio</span>
 .ntvs_analysis.dat
 node_modules/
 
-# Visual Studio 6 build log
+<span class="c1"># Visual Studio 6 build log</span>
 *.plg
 
-# Visual Studio 6 workspace options file
+<span class="c1"># Visual Studio 6 workspace options file</span>
 *.opt
 
-# Visual Studio 6 auto-generated workspace file (contains which files were open etc.)
+<span class="c1"># Visual Studio 6 auto-generated workspace file (contains which files were open etc.)</span>
 *.vbw
 
-# Visual Studio LightSwitch build output
+<span class="c1"># Visual Studio LightSwitch build output</span>
 **/*.HTMLClient/GeneratedArtifacts
 **/*.DesktopClient/GeneratedArtifacts
 **/*.DesktopClient/ModelManifest.xml
@@ -2520,67 +2196,67 @@ node_modules/
 **/*.Server/ModelManifest.xml
 _Pvt_Extensions
 
-# Paket dependency manager
+<span class="c1"># Paket dependency manager</span>
 .paket/paket.exe
 paket-files/
 
-# FAKE - F# Make
+<span class="c1"># FAKE - F# Make</span>
 .fake/
 
-# CodeRush personal settings
+<span class="c1"># CodeRush personal settings</span>
 .cr/personal
 
-# Python Tools for Visual Studio (PTVS)
+<span class="c1"># Python Tools for Visual Studio (PTVS)</span>
 __pycache__/
 *.pyc
 
-# Cake - Uncomment if you are using it
-# tools/**
-# !tools/packages.config
+<span class="c1"># Cake - Uncomment if you are using it</span>
+<span class="c1"># tools/**</span>
+<span class="c1"># !tools/packages.config</span>
 
-# Tabs Studio
+<span class="c1"># Tabs Studio</span>
 *.tss
 
-# Telerik's JustMock configuration file
+<span class="c1"># Telerik&#39;s JustMock configuration file</span>
 *.jmconfig
 
-# BizTalk build output
+<span class="c1"># BizTalk build output</span>
 *.btp.cs
 *.btm.cs
 *.odx.cs
 *.xsd.cs
 
-# OpenCover UI analysis results
+<span class="c1"># OpenCover UI analysis results</span>
 OpenCover/
 
-# Azure Stream Analytics local run output
+<span class="c1"># Azure Stream Analytics local run output</span>
 ASALocalRun/
 
-# MSBuild Binary and Structured Log
+<span class="c1"># MSBuild Binary and Structured Log</span>
 *.binlog
 
-# NVidia Nsight GPU debugger configuration file
+<span class="c1"># NVidia Nsight GPU debugger configuration file</span>
 *.nvuser
 
-# MFractors (Xamarin productivity tool) working folder
+<span class="c1"># MFractors (Xamarin productivity tool) working folder</span>
 .mfractor/
 
-# Local History for Visual Studio
+<span class="c1"># Local History for Visual Studio</span>
 .localhistory/
 
-# BeatPulse healthcheck temp database
+<span class="c1"># BeatPulse healthcheck temp database</span>
 healthchecksdb
 
-# Backup folder for Package Reference Convert tool in Visual Studio 2017
+<span class="c1"># Backup folder for Package Reference Convert tool in Visual Studio 2017</span>
 MigrationBackup/
 
-# Ionide (cross platform F# VS Code tools) working folder
+<span class="c1"># Ionide (cross platform F# VS Code tools) working folder</span>
 .ionide/
 
-# Fody - auto-generated XML schema
+<span class="c1"># Fody - auto-generated XML schema</span>
 FodyWeavers.xsd
 
-# VS Code files for those working on multiple tools
+<span class="c1"># VS Code files for those working on multiple tools</span>
 .vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
@@ -2588,20 +2264,20 @@ FodyWeavers.xsd
 !.vscode/extensions.json
 *.code-workspace
 
-# Local History for Visual Studio Code
+<span class="c1"># Local History for Visual Studio Code</span>
 .history/
 
-# Windows Installer files from build outputs
+<span class="c1"># Windows Installer files from build outputs</span>
 *.cab
 *.msi
 *.msix
 *.msm
 *.msp
 
-# JetBrains Rider
+<span class="c1"># JetBrains Rider</span>
 .idea/
 *.sln.iml
-</code></pre>
+</code></pre></div>
 
 
 
@@ -2757,6 +2433,14 @@ FodyWeavers.xsd
     
     
       <script src="../../assets/javascripts/bundle.c8d2eff1.min.js"></script>
+      
+        <script src="../../javascripts/extra.js"></script>
+      
+        <script src="../../javascripts/mathjax.js"></script>
+      
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
       
     
   </body>
