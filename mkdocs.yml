@@ -50,14 +50,11 @@ extra:  # 底部图标 版权跳转
 copyright: Copyright © dancehole邓仕昊 2023 - 2024 深圳技术大学
 
 # 存储库
-repo_url: https://gitee.com/dancehole/code-labs
+repo_url: https://github.com/dancehole/codeLabs
 repo_name: dancehole/CodeLabs
 
 # 显示文件时间 需要安装库 pip install mkdocs-git-revision-date-localized-plugin
 plugins:  # 插件
-  # - git-revision-date-localized:
-  #     enable_creation_date: true
-  #     type: date # 支持 date datetime iso_date iso_datetime timeago
   - search
 
 markdown_extensions:
