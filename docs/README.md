@@ -59,17 +59,47 @@ CodeLabs包含常用非专业实用知识，包含Git、Markdown协作、window�
 
 ==待维护==
 
-| 目录     | 子目录 | 文件 | 解释 |
-| -------- | ------ | ---- | ---- |
-| 软件     |        |      |      |
-|          |        |      |      |
-| 硬件     |        |      |      |
-| 通用     |        |      |      |
-|          |        |      |      |
-|          |        |      |      |
-| 项目介绍 |        |      |      |
-|          |        |      |      |
-|          |        |      |      |
+| 目录         | 子目录                 | 文件          | 解释                       |
+| ------------ | ---------------------- | ------------- | -------------------------- |
+| 软件         | 前端                   |               |                            |
+|              | 后端                   |               |                            |
+| 硬件         | arduino                |               |                            |
+| 通用         | 计算机通用知识         | LinuxCommand  |                            |
+|              |                        | SoftWareUsage |                            |
+|              |                        | Utils         |                            |
+|              |                        | WindowsOS     |                            |
+|              | 开发通用知识           | Git           |                            |
+|              |                        | Markdown      |                            |
+|              |                        |               |                            |
+| **项目介绍** | AutoCompleteCW         |               | github,实习公司erp用       |
+|              | dailyReportHandler     |               | github,pypi,实习公司日报用 |
+|              | 密码校验               |               |                            |
+|              | 发布文章               |               |                            |
+|              | brief                  |               | github                     |
+|              | Codelabs               |               | github+gitee               |
+|              | greenfield             |               | github,private             |
+|              | introTemplate          |               | github                     |
+|              | minigame               |               | github                     |
+|              | todoList               |               | github,，待处理            |
+|              | TXMapDemo              |               | github                     |
+|              | work_report            |               | github,private             |
+|              | ar-app                 |               | gitee，待处理              |
+|              | checkPwdSafety         |               | gitee，待处理              |
+|              | AscentSys              |               | gitee                      |
+|              | DS_TriangleChess       |               | gitee                      |
+|              | go-image-management    |               | gitee，待处理              |
+|              | react-image-management |               | gitee，待处理              |
+|              | todolist               |               | gitee，待处理              |
+|              | vue-chess              |               | gitee，待处理              |
+|              | watermetre_2023qrs     |               | gitee，待处理              |
+|              | WebDemo                |               | gitee，待处理              |
+|              |                        |               |                            |
+|              |                        |               |                            |
+|              |                        |               |                            |
+|              |                        |               |                            |
+|              |                        |               |                            |
+|              |                        |               |                            |
+|              |                        |               |                            |
 
 
 

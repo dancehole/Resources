@@ -59,17 +59,57 @@ CodeLabs包含常用非专业实用知识，包含Git、Markdown协作、window�
 
 ==待维护==
 
-| 目录     | 子目录 | 文件 | 解释 |
-| -------- | ------ | ---- | ---- |
-| 软件     |        |      |      |
-|          |        |      |      |
-| 硬件     |        |      |      |
-| 通用     |        |      |      |
-|          |        |      |      |
-|          |        |      |      |
-| 项目介绍 |        |      |      |
-|          |        |      |      |
-|          |        |      |      |
+| 目录                | 子目录                           | 文件          | 解释                        | 链接                                                         |
+| ------------------- | -------------------------------- | ------------- | --------------------------- | ------------------------------------------------------------ |
+| 软件                | 前端                             |               |                             |                                                              |
+|                     | 后端                             |               |                             |                                                              |
+| 硬件                | arduino                          |               |                             |                                                              |
+| 通用                | 计算机通用知识                   | LinuxCommand  |                             |                                                              |
+|                     |                                  | SoftWareUsage |                             |                                                              |
+|                     |                                  | Utils         |                             |                                                              |
+|                     |                                  | WindowsOS     |                             |                                                              |
+|                     | 开发通用知识                     | Git           |                             |                                                              |
+|                     |                                  | Markdown      |                             |                                                              |
+|                     |                                  |               |                             |                                                              |
+| **项目介绍**–github | AutoCompleteCW                   |               | github,实习公司erp用        |                                                              |
+|                     | **dailyReportHandler**           |               | github,pypi,实习公司日报用  | https://github.com/dancehole/dailyReportHandler              |
+|                     | 密码校验                         |               |                             |                                                              |
+|                     | 发布文章                         |               |                             |                                                              |
+|                     | brief                            |               |                             | https://github.com/dancehole/brief                           |
+|                     | Codelabs                         |               |                             | https://github.com/dancehole/Codelabs                        |
+|                     | greenfieldbackend                |               |                             | https://github.com/dancehole/GreenFieldBackend               |
+|                     | greenfield_smartlink_miniprogram |               |                             |                                                              |
+|                     | **introTemplate**                |               |                             | https://github.com/dancehole/introTemplate                   |
+|                     | minigame                         |               |                             | https://github.com/dancehole/minigame                        |
+|                     | todoList                         |               | 待处理                      |                                                              |
+|                     | TXMapDemo                        |               |                             | https://github.com/dancehole/TXMapDemo                       |
+|                     | work_OA                          |               | private                     | https://github.com/dancehole/workOA                          |
+|                     | image                            |               |                             | https://github.com/dancehole/image                           |
+|                     | home                             |               |                             | https://github.com/dancehole/Home                            |
+|                     | http_server                      |               |                             | https://github.com/dancehole/HTTP_SERVER                     |
+| **项目介绍**–gitee  | ar-app                           |               | gitee，待处理（基本弃用）   | https://gitee.com/dancehole/ar_app                           |
+|                     | checkPwdSafety                   |               | gitee，待处理               |                                                              |
+|                     | AscentSys                        | **主导项目**  | gitee                       | https://gitee.com/dancehole/AscentSys                        |
+|                     | DS_TriangleChess                 | **主导项目**  | gitee                       | https://gitee.com/dancehole/chess                            |
+|                     | go-image-management              | **合作项目**  | gitee，待处理               | https://gitee.com/cyanbleeze/go-image-managemen              |
+|                     | react-image-management           | **合作项目**  | gitee，待处理               | https://gitee.com/cyanbleeze/react-image-management          |
+|                     | vue-chess                        | **合作项目**  | gitee，fork from cyanbleeze | https://gitee.com/dancehole/vue-chess                        |
+|                     | watermetre_2023qrs               |               | gitee，待处理               |                                                              |
+|                     | WebDemo                          |               | gitee，待处理               | https://gitee.com/dancehole/web-d                            |
+|                     | todolist                         | fork项目      | gitee，待处理               |                                                              |
+|                     | Home                             |               | 个人主页，github            |                                                              |
+|                     | Notebooks                        |               |                             |                                                              |
+|                     | codelabs                         |               |                             | https://gitee.com/dancehole/code-labs                        |
+|                     | work-report                      |               |                             | https://gitee.com/dancehole/work_report                      |
+|                     | auto-complete-cw                 |               |                             | https://gitee.com/dancehole/auto-complete-cw                 |
+|                     | notebooks                        |               |                             | https://gitee.com/dancehole/notebooks                        |
+|                     | water_meter                      |               |                             | https://gitee.com/dancehole/qrs                              |
+|                     | OS                               |               |                             | https://gitee.com/dancehole/tmp                              |
+|                     | 合泰杯                           |               |                             | https://gitee.com/dancehole/gdut-hetai-cup                   |
+|                     | sztu体测                         |               |                             | https://gitee.com/sztu-gduedc-6/sztu-sports-monitoring-system |
+|                     |                                  |               |                             |                                                              |
+|                     |                                  |               |                             |                                                              |
+|                     |                                  |               |                             |                                                              |
 
 
 
@@ -77,6 +117,20 @@ CodeLabs包含常用非专业实用知识，包含Git、Markdown协作、window�
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | <a href="https://dancehole.gitee.io/web-d/"><img src="https://cdn.jsdelivr.net/gh/dancehole/image@main/img/th%20(2).jpg"/></a> |                                                              | <img src="https://cdn.jsdelivr.net/gh/dancehole/image@main/img/Web_notebooks.png"/> |                                                              |                                                              |
 |                                                              |                                                              |                                                              |                                                              |                                                              |
+
+
+
+## 发布文章
+
+
+
+|      |      |      |
+| ---- | ---- | ---- |
+|      |      |      |
+
+
+
+
 
 
 
