@@ -47,7 +47,7 @@ extra:  # 底部图标 版权跳转
       link: mailto:<1391755954@qq.com>
 
 # 版权声明 
-copyright: Copyright © dancehole邓仕昊 2023 - 2024 深圳技术大学
+copyright: Copyright © dancehole邓仕昊 2023 - 2024 深圳技术大学 ; <a href="https://beian.miit.gov.cn/" target="_blank">粤ICP备2024302719号</a>
 
 # 存储库
 repo_url: https://github.com/dancehole/codeLabs
