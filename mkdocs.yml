@@ -26,7 +26,7 @@ theme:
     - navigation.instant.prefetch # 即时抓取，优化访问性能
     - navigation.tabs # 上方导航栏,收纳第一级目录
     - navigation.tabs.sticky #粘性导航选项卡
-    - navigation.sections  # 启用后，顶级分区将会分组（即在侧边栏展开额外一级目录，建议在目录层级嵌套过深时(大型文档)采用，优先级：上方导航栏->侧边栏->箭头目录[ps:由于样式设计不建议箭头目录太多嵌套]）
+    - navigation.sections  # 启用后，顶级分区将会分组（即在侧边栏展开额外一级目录，建议在目录层级较多、但总文件量少的情况下、希望快速访问时采用。优先级：上方导航栏->侧边栏->箭头递归目录[ps:由于样式设计不建议箭头目录太多嵌套]）
     - navigation.tracking
     - navigation.footer # 页脚 指向下一篇文章
     - navigation.top  # 新增导航到顶部的按钮
