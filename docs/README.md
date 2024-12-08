@@ -108,6 +108,23 @@ comments: true  #默认不开启评论，此处开启
         </a>
     </div>
 </div>
+dancehole.cn路由：
+
+| 项目名                 | 项目描述   | 项目链接                    |
+| ---------------------- | ---------- | --------------------------- |
+| danceholeLab（本项目） | 公共知识库 | https://docs.dancehole.cn   |
+| brief                  | 个人简历   | https://brief.dancehole.cn  |
+| intro                  | 项目列表   | https://intro.dancehole.cn  |
+|                        |            | https://yunnan.dancehole.cn |
+|                        |            | www.dancehole.cn            |
+|                        |            |                             |
+|                        |            |                             |
+|                        |            |                             |
+
+
+
+
+
 
 
 ## 三、内容导航<a id = "title12"></a>
@@ -122,6 +139,10 @@ comments: true  #默认不开启评论，此处开启
 | 项目              | Project  | 项目说明文档       |
 | 软件              | Software | 学习文档           |
 | 旅行 \| 生活      | Travel   | 旅行文档 \| 转飞书 |
+
+
+
+
 
 
 
